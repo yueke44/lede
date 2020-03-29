@@ -1,9 +1,9 @@
 name: yueke定制LEDE
 
 on:
-  push:
-    branches: 
-      - master
+  # push:
+  #   branches: 
+  #     - master
 
 jobs:
 
