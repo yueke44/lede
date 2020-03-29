@@ -1,4 +1,4 @@
-name: yueke定制LEDE
+name: yueke定制LEDE 0.1
 
 on:
   push:
@@ -40,7 +40,7 @@ jobs:
           
       - name: 自定插件主题
         run: |
-          cd packages
+          cd package
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/rosywrt/luci-theme-rosy.git
